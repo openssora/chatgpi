@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://chatgpi.cn/how-subscribe-chatgpt4-plus/</loc>
+    
+    <lastmod>2024-10-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chatgpi.cn/how-netflix-pay/</loc>
     
     <lastmod>2024-10-11</lastmod>
@@ -31,7 +40,7 @@
 
   <url>
     <loc>https://chatgpi.cn/</loc>
-    <lastmod>2024-10-11</lastmod>
+    <lastmod>2024-10-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -39,7 +48,21 @@
   
   <url>
     <loc>https://chatgpi.cn/tags/%E7%BD%91%E9%A3%9ENetFlix/</loc>
-    <lastmod>2024-10-11</lastmod>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/tags/Cursor/</loc>
+    <lastmod>2024-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/tags/ChatGPT/</loc>
+    <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -48,7 +71,7 @@
   
   <url>
     <loc>https://chatgpi.cn/categories/%E6%B5%B7%E5%A4%96%E6%94%AF%E4%BB%98%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-11</lastmod>
+    <lastmod>2024-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
