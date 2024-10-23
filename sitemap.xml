@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chatgpi.cn/how-subscribe-claude3/</loc>
+    
+    <lastmod>2024-10-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/claude3-computer-feature/</loc>
+    
+    <lastmod>2024-10-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://chatgpi.cn/how-subscribe-poe/</loc>
     
     <lastmod>2024-10-21</lastmod>
@@ -49,7 +67,7 @@
 
   <url>
     <loc>https://chatgpi.cn/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -57,91 +75,133 @@
   
   <url>
     <loc>https://chatgpi.cn/tags/%E7%BD%91%E9%A3%9ENetFlix/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/Cursor/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/ChatGPT/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/ChatGPT-Plus/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/GPT%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/Cursor%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/Cursor-Pro-Plus/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/Cursor%E8%AE%A2%E9%98%85%E5%85%85%E5%80%BC%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/GPT%E4%BC%9A%E5%91%98%E5%8D%87%E7%BA%A7/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/%E7%BD%91%E9%A3%9E%E8%B4%A6%E5%8F%B7%E6%B3%A8%E5%86%8C%E5%BC%80%E9%80%9A%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/%E7%BD%91%E9%A3%9E%E4%BC%9A%E5%91%98%E5%85%85%E5%80%BC%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/Poe%E8%AE%A2%E9%98%85%E5%85%85%E5%80%BC/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/tags/Poe%E4%BC%9A%E5%91%98%E8%B4%AD%E4%B9%B0/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/tags/Claude3-5/</loc>
+    <lastmod>2024-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/tags/Claude3-5%E6%96%B0%E5%8A%9F%E8%83%BD/</loc>
+    <lastmod>2024-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/tags/Claude/</loc>
+    <lastmod>2024-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/tags/Claude-Pro/</loc>
+    <lastmod>2024-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/tags/%E7%94%B3%E8%AF%B7%E6%B3%A8%E5%86%8CClaude%E8%B4%A6%E5%8F%B7/</loc>
+    <lastmod>2024-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/tags/%E5%8D%87%E7%BA%A7%E8%AE%A2%E9%98%85%E5%BC%80%E9%80%9AClaude-Pro/</loc>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -150,28 +210,35 @@
   
   <url>
     <loc>https://chatgpi.cn/categories/%E7%BD%91%E9%A3%9ENetFlix%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/categories/ChatGPT%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/categories/Cursor%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://chatgpi.cn/categories/Poe%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-10-21</lastmod>
+    <lastmod>2024-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://chatgpi.cn/categories/Claude3-5%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
