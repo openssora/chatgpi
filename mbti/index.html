@@ -84,6 +84,62 @@
         .ad-link {
             text-decoration: none;
         }
+        .wechat-tip {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 9999;
+            color: white;
+            text-align: center;
+        }
+        
+        .wechat-tip-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            padding: 20px;
+        }
+        
+        .wechat-tip img {
+            width: 60%;
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+        
+        .wechat-tip-text {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .close-tip {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .browser-open-btn {
+            display: none;
+            margin-top: 10px;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            color: white;
+            background-color: #ff6b6b;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -120,5 +176,44 @@
             </a>
         </div>
     </div>
+
+    <div class="wechat-tip" id="wechatTip">
+        <div class="wechat-tip-content">
+            <div class="wechat-tip-text">
+                <p>请点击右上角的"..."</p>
+                <p>选择"在浏览器中打开"</p>
+                <p>以获得最佳测试体验</p>
+            </div>
+            <a href="#" class="close-tip" onclick="closeWechatTip()">我知道了</a>
+        </div>
+    </div>
+
+    <script>
+        function isWechat() {
+            var ua = navigator.userAgent.toLowerCase();
+            return ua.indexOf('micromessenger') !== -1;
+        }
+
+        function handleTestClick(event) {
+            if (isWechat()) {
+                event.preventDefault();
+                document.getElementById('wechatTip').style.display = 'block';
+            }
+        }
+
+        function closeWechatTip() {
+            document.getElementById('wechatTip').style.display = 'none';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var testBtn = document.querySelector('.start-test-btn');
+            var adLink = document.querySelector('.ad-link');
+            
+            if (isWechat()) {
+                testBtn.addEventListener('click', handleTestClick);
+                adLink.addEventListener('click', handleTestClick);
+            }
+        });
+    </script>
 </body>
 </html> 
