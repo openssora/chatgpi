@@ -12,49 +12,115 @@
             padding: 0;
             min-height: 100vh;
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            background: #fff;
+            position: relative;
+            overflow-x: hidden;
         }
-        .container {
+        
+        .q-hm {
+            position: relative;
+            background-color: #4298b4;
+            padding-bottom: 2rem;
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero {
+            position: relative;
+            z-index: 2;
+            padding-top: 6rem;
+            text-align: center;
+            color: white;
+            width: 100%;
+        }
+
+        .hero__shape {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            fill: white;
+        }
+
+        .hero__text {
             max-width: 800px;
             margin: 0 auto;
             padding: 2rem;
-            text-align: center;
+            position: relative;
+            z-index: 3;
         }
-        header {
+
+        .hero__text h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .hero__text p {
+            font-size: 1.4rem;
             margin-bottom: 3rem;
-        }
-        h1 {
-            color: #2b2b2b;
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-        }
-        .description {
-            color: #666;
-            font-size: 1.2rem;
             line-height: 1.6;
-            margin-bottom: 2rem;
+            opacity: 0.95;
         }
-        .start-test-btn {
-            display: inline-block;
-            padding: 1rem 2rem;
-            font-size: 1.2rem;
+
+        .scene {
+            position: relative;
+            z-index: 1;
+            margin-top: 4rem;
+            text-align: center;
+            width: 100%;
+        }
+
+        .scene img {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .button--purple {
+            display: inline-flex;
+            align-items: center;
+            padding: 1.2rem 2.5rem;
+            font-size: 1.3rem;
             color: white;
-            background-color: #4CAF50;
+            background-color: #886199;
             border: none;
-            border-radius: 5px;
+            border-radius: 50px;
             cursor: pointer;
             text-decoration: none;
-            transition: background-color 0.3s ease;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(136, 97, 153, 0.3);
         }
-        .start-test-btn:hover {
-            background-color: #45a049;
+
+        .button--purple:hover {
+            background-color: #9b72ac;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(136, 97, 153, 0.4);
         }
+
+        .button__text {
+            margin-right: 0.8rem;
+        }
+
+        .sp-icon {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+            margin-left: 0.5rem;
+        }
+
         .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
+            background: white;
+            padding: 4rem 2rem;
+            position: relative;
+            z-index: 2;
         }
+
         .feature-card {
             background: white;
             padding: 1.5rem;
@@ -142,6 +208,22 @@
             cursor: pointer;
             text-decoration: none;
         }
+
+        @media (max-width: 768px) {
+            .hero__text h1 {
+                font-size: 2.2rem;
+            }
+            .hero__text p {
+                font-size: 1.1rem;
+            }
+            .button--purple {
+                padding: 1rem 2rem;
+                font-size: 1.1rem;
+            }
+            .scene {
+                margin-top: 2rem;
+            }
+        }
     </style>
      <script>var _hmt = _hmt || [];
         (function() {
@@ -152,39 +234,31 @@
         })();</script>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>MBTI人格测试</h1>
-            <p class="description">
-                探索你的性格特质，了解真实的自己。<br>
-                通过科学的MBTI测试，发现你的独特个性。
-            </p>
-            <a href="https://www.16personalities.com/ch/%E4%BA%BA%E6%A0%BC%E6%B5%8B%E8%AF%95" class="start-test-btn" target="_blank">
-                开始测试
-            </a>
-        </header>
-        
-        <div class="features">
-            <a href="https://upchatgpt.cn/how-pay-upgrade-chatgpt-in-openai/?t=mbti" class="ad-link" target="_blank">
-                <div class="feature-card ad-card">
-                    <h3>ChatGPT 升级教程</h3>
-                    <p>解锁AI的无限可能，立即查看独家升级指南！</p>
-                </div>
-            </a>
-            <div class="feature-card">
-                <h3>科学可靠</h3>
-                <p>基于MBTI理论，全球数百万人使用和认可的性格测试工具</p>
-            </div>
-            <div class="feature-card">
-                <h3>深入分析</h3>
-                <p>详细的个性特征分析，帮助你更好地认识自己</p>
-            </div>
-            <div class="feature-card">
-                <h3>免费使用</h3>
-                <p>完全免费的测试体验，获取专业的性格分析报告</p>
+    <main class="q-hm">
+        <div class="hero">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60" preserveAspectRatio="none" class="hero__shape hero__shape--top" aria-hidden="true">
+                <path d="m0 20 420 40L800 0l750 60 370-45V0H0z"></path>
+            </svg>
+            <div class="hero__text">
+                <h1>"终于被理解的感觉真好。"</h1>
+                <p>只需10分钟，就能"惊人般准确"地描述出你是谁，以及你为何以这样的方式行事。</p>
+                <a href="https://www.16personalities.com/ch/%E4%BA%BA%E6%A0%BC%E6%B5%8B%E8%AF%95" class="button--purple" target="_blank">
+                    <span class="button__text">参加测试</span>
+                    <svg class="sp-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.296875,3.421875 L22.63125,4.0875 C22.190625,4.528125 22.190625,5.240625 22.63125,5.68125 L39.365625,22.40625 L4.125,22.40625 C3.50625,22.40625 3,22.9125 3,23.53125 L3,24.46875 C3,25.0875 3.50625,25.59375 4.125,25.59375 L39.365625,25.59375 L22.63125,42.328125 C22.190625,42.76875 22.190625,43.48125 22.63125,43.921875 L23.296875,44.5875 C23.7375,45.028125 24.45,45.028125 24.890625,44.5875 L44.68125,24.796875 C45.121875,24.35625 45.121875,23.64375 44.68125,23.203125 L24.890625,3.421875 C24.440625,2.98125 23.7375,2.98125 23.296875,3.421875 Z"></path>
+                    </svg>
+                </a>
             </div>
         </div>
-    </div>
+        <div class="scene">
+            <img width="377" height="201" 
+                srcset="./header-mountains-mobile.svg 768w, 
+                        ./header-mountains-desktop.svg 1600w" 
+                sizes="(max-width: 768px) 100vw, 100vw" 
+                src="./header-mountains-desktop.svg" 
+                alt="一群朋友在山脉背景下的篝火旁野餐">
+        </div>
+    </main>
 
     <div class="wechat-tip" id="wechatTip">
         <div class="wechat-tip-content">
@@ -195,6 +269,15 @@
             </div>
             <a href="#" class="close-tip" onclick="closeWechatTip()">我知道了</a>
         </div>
+    </div>
+
+    <div class="link-card" style="display: none;">
+        <a href="https://upchatgpt.cn/how-pay-upgrade-chatgpt-in-openai/" class="ad-link" target="_blank">
+            <div class="feature-card ad-card">
+                <h3>ChatGPT 升级教程</h3>
+                <p>解锁AI的无限可能，立即查看独家升级指南！</p>
+            </div>
+        </a>
     </div>
 
     <script>
@@ -215,7 +298,7 @@
         }
 
         document.addEventListener('DOMContentLoaded', function() {
-            var testBtn = document.querySelector('.start-test-btn');
+            var testBtn = document.querySelector('.button--purple');
             var adLink = document.querySelector('.ad-link');
             
             if (isWechat()) {
